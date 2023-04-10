@@ -4,29 +4,31 @@ Mi-Libre is an innovative application designed for book lovers who want to have 
 
 ## Table of Contents
 
-- [Installation](#Installation)
-	- [Docker](#Docker)
-	- [Manual](#Manual)
-		- [Requirements](#Requirements)
-		- [Install dependencies](#Install-dependencies)
-		- [Configure MongoDB](#Configure-MongoDB)
-		- [Run the Application](#Run-the-Application)
+- [Installation](#installation)
+	- [Docker](#docker)
+	- [Manual](#manual)
+		- [Requirements](#requirements)
+		- [Install dependencies](#install-dependencies)
+		- [Configure MongoDB](#configure-mongodb)
+		- [Run the Application](#run-the-application)
 - [Usage](#Usage)
-	- [Adding a Book](#Adding-a-Book)
-	- [Showing a Book](#Showing-a-Book)
-	- [Updating a Book](#Updating-a-Book)
-	- [Deleting a Book](#Deleting-a-Book)
-	- [Addign a list of Books](#Addign-a-list-of-Books)
-	- [Searching Books](#Searching-Books)
+	- [Adding a Book](#adding-a-book)
+	- [Showing a Book](#showing-a-book)
+	- [Updating a Book](#updating-a-book)
+	- [Deleting a Book](#deleting-a-book)
+	- [Addign a list of Books](#addign-a-list-of-books)
+	- [Searching Books](#searching-books)
 - [FAQ](#FAQ)
-	- [What if I don't want to upload my books to the cloud?](#What-if-I-don't-want-to-upload-my-books-to-the-cloud?)
+	- [What if I don't want to upload my books to the cloud?](#what-if-i-dont-want-to-upload-my-books-to-the-cloud)
 
-- [Info](#Info)
+- [Info](#info)
 
 
 # Installation
 
-## Docker
+## Docker 
+
+### Not quite working righ now. Please use [Manual](#manual) version.
 
 - To run the script in Docker, use the following command:
 
@@ -55,7 +57,7 @@ The `-h` flag is optional, it will display the help message. You can use any oth
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/username/mi-libre.git
+git clone https://github.com/Rooyca/milibre-personal-library
 ```
 
 2. Install the required packages:
@@ -64,7 +66,7 @@ git clone https://github.com/username/mi-libre.git
 pip install -r requirements.txt
 ```
 
-### Configure MongoDB
+### Configure MongoDB (optional)
 
 1. Run MongoDB with Docker:
 
