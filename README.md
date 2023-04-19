@@ -1,6 +1,10 @@
 # Mi-Libre
 
-Mi-Libre is an innovative application designed for book lovers who want to have a personal library accessible from anywhere. With this application, users can store all their books in the cloud and access them at any time. The metadata of each book is stored in a NoSQL database, which guarantees high availability and scalability, allowing the application to handle large amounts of data without issues. In addition, users can add tags to each book to facilitate the search and organization of their virtual library.
+Welcome to `Mi-Libre` - a CLI app designed for book lovers!
+
+With Mi-Libre, you can have a personal library accessible from anywhere*. You can store all your books in the cloud and access them at any time. The metadata of each book is stored in MongoDB, which guarantees high availability and scalability. This means that Mi-Libre can handle large amounts of data without issues.
+
+Mi-Libre also allows you to add tags to each book to facilitate the search and organization of your virtual library.
 
 ## Table of Contents
 
