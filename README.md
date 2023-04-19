@@ -28,15 +28,13 @@ Mi-Libre is an innovative application designed for book lovers who want to have 
 
 ## Docker 
 
-### Not quite working righ now. Please use [Manual](#manual) version.
-
 - To run the script in Docker, use the following command:
 
 ```bash
-docker run -v $(pwd)/.env:/code/app/.env --rm milibre:latest -h
+docker run -v $(pwd)/.env:/code/app/.env -v ./Books/:/code/app/Books --network host -it --rm milibre:alphine -h
 ```
 
-Replace `$(pwd)/.env` with the path to your `.env` file.
+Replace `$(pwd)/.env` with the path to your `.env` file, and `./Books/` with your books folder.
 The `-h` flag is optional, it will display the help message. You can use any other flag to run the script.
 
 > Your `.env` file should look like [this](.env.example).
