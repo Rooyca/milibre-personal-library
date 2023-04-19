@@ -6,6 +6,8 @@ With Mi-Libre, you can have a personal library accessible from anywhere*. You ca
 
 Mi-Libre also allows you to add tags to each book to facilitate the search and organization of your virtual library.
 
+![GIF](gif_example.gif)
+
 ## Table of Contents
 
 - [Installation](#installation)
