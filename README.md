@@ -1,4 +1,4 @@
-# Mi-Libre
+# MiLibre-cli
 
 Welcome to `Mi-Libre` - a CLI app designed for book lovers!
 
